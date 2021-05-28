@@ -1,0 +1,30 @@
+{
+  "name": "cy-project",
+  "version": "1.0.0",
+  "description": "test automation practice project using cypress",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^7.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:headless": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamedatef2020/cy-project.git"
+  },
+  "keywords": [
+    "cypress",
+    "test",
+    "automation",
+    "npm"
+  ],
+  "author": "Mohamed Atef",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohamedatef2020/cy-project/issues"
+  },
+  "homepage": "https://github.com/mohamedatef2020/cy-project#readme"
+}
