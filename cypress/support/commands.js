@@ -11,8 +11,11 @@
 //
 // -- This is a parent command --
 // Cypress.Commands.add('login', (email, password) => { ... })
-//
-//
+Cypress.Commands.add('clickBTN', selector => cy.get(selector).click());
+
+Cypress.Commands.add('assertRedirectionTo', url => cy.url().should("eq", url));
+
+
 // -- This is a child command --
 // Cypress.Commands.add('drag', { prevSubject: 'element'}, (subject, options) => { ... })
 //
