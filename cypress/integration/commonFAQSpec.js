@@ -11,4 +11,12 @@ describe('Test Common Questions Page', () => {
 
       commonQuestionsPage.assertions.assertTitleEquals(commonQuestions.pageTitle);
     });
+
+    commonQuestions.questions.forEach((question, index) => {
+      it(`Should display question no. ${index+1} and its answer properly`, () => {
+        commonQuestionsPage.assertions.assertQuestionEquals(question.questionText, index+1);
+        commonQuestionsPage.actions.viewAnswer(index+1);
+        commonQuestionsPage.actions.hideAnswer(index+1);        
+      })
+    })
   });
