@@ -2,7 +2,6 @@
   "name": "cy-project",
   "version": "1.0.0",
   "description": "test automation practice project using cypress",
-  "main": "index.js",
   "dependencies": {
     "cypress": "^7.4.0"
   },
